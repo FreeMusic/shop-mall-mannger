@@ -52,6 +52,26 @@ const router = createRouter({
             path: '/good',
             name: 'good',
             component: () => import('../views/Good.vue')
+        },
+        {
+            path: '/guest',
+            name: 'guest',
+            component: () => import('../views/Guest.vue')
+        },
+        {
+            path: '/order',
+            name: 'order',
+            component: () => import('../views/Order.vue')
+        },
+        {
+            path: '/order_detail',
+            name: 'order_detail',
+            component: () => import('../views/OrderDetail.vue')
+        },
+        {
+            path: '/account',
+            name: 'account',
+            component: () => import('../views/Account.vue')
         }
     ]
 })

@@ -61,11 +61,6 @@
             <li>axios</li>
             <li>wangEditor</li>
         </ul>
-        <h1>联系作者</h1>
-        <ul>
-            <li>我的邮箱：2449207463@qq.com</li>
-            <li>QQ技术交流群：932227898、707779034</li>
-        </ul>
     </el-card>
 </template>
 

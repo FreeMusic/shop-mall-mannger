@@ -5,7 +5,6 @@ import 'element-plus/lib/theme-chalk/index.css'
 // import * as Sentry from "@sentry/browser"
 // import { Integrations } from "@sentry/browser";
 import router from "./router";
-import * as echarts from 'echarts'
 
 const orderStatus = {
     0: '待支付',
@@ -51,8 +50,6 @@ app.config.globalProperties.$filters = {
 
 app.use(ElementPlus)
     .use(router)
-
-app.config.globalProperties.$echarts = echarts
 
 // Sentry.init({
 //     dsn: "https://f866b695d21d467ba523f1adf14e0a24@o584908.ingest.sentry.io/5737358",
